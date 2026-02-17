@@ -2,6 +2,21 @@
 
 Status: pre-release (`0.x`), focused on learning and documentation.
 
+## v0.0.3 - 2026-02-17
+
+### Added or Changed
+- Replaced the collapsible HTML table of contents in `README.md` with a static Markdown nested list for always-visible navigation.
+- Added/aligned README section anchors to match the new table of contents targets:
+  - `### Learning Scope`
+  - `### Run Primitive Data Types Exercise`
+  - `## Learning Resource` (renamed from `## Usage`)
+- Added a quick `primitive-data-types.tex` exercise snippet and compile command in `README.md`.
+- Updated `README.md` version marker from `v0.0.2` to `v0.0.3`.
+- Added `docs/version-0.0.3-docs.md` and linked it in the README Version Documentation index.
+
+### For Deletion
+- None from this task context (no LaTeX build artifacts or temporary files were detected).
+
 ## v0.0.2 - 2026-02-17
 
 ### Added or Changed

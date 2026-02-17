@@ -15,9 +15,9 @@
   <p align="center">
     <strong>A practice repository to learn LaTeX Markup Language, Packages, and Typesetting System.</strong>
     <br />
-    Version: v0.0.2
+    Version: v0.0.3
     <br />
-    Status: initial learning baseline (documentation-refined).
+    Status: initial learning baseline (documentation-refined with static navigation).
     <br />
     <a href="https://github.com/zcalifornia-ph/practice-latex"><strong>Explore the repository »</strong></a>
     <br />
@@ -30,35 +30,27 @@
   </p>
 </div>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#version-documentation">Version Documentation</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+## Table of Contents
+
+- [About The Project](#about-the-project)
+  - [Learning Scope](#learning-scope)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Run Primitive Data Types Exercise](#run-primitive-data-types-exercise)
+- [Learning Resource](#learning-resource)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## About The Project
 
 `practice-latex` is a learning repository focused on practical LaTeX usage:
+
+### Learning Scope
 
 - LaTeX markup fundamentals
 - package usage patterns
@@ -106,9 +98,30 @@ pdflatex --version
    pdflatex your-file.tex
    ```
 
+### Run Primitive Data Types Exercise
+
+Create a starter file named `primitive-data-types.tex` and compile it to practice text, numbers, and basic formatting:
+
+```tex
+\documentclass{article}
+\begin{document}
+\section*{Primitive Data Types Exercise}
+Text: Hello, LaTeX!\\
+Integer: 42\\
+Decimal: 3.14159\\
+Boolean style text: true / false
+\end{document}
+```
+
+Then run:
+
+```sh
+pdflatex primitive-data-types.tex
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Usage
+## Learning Resource
 
 Example minimal LaTeX file:
 
@@ -149,6 +162,7 @@ See the [open issues](https://github.com/zcalifornia-ph/practice-latex/issues) f
 
 ## Version Documentation
 
+- `v0.0.3`: [`docs/version-0.0.3-docs.md`](docs/version-0.0.3-docs.md)
 - `v0.0.2`: [`docs/version-0.0.2-docs.md`](docs/version-0.0.2-docs.md)
 - `v0.0.1`: [`docs/version-0.0.1-docs.md`](docs/version-0.0.1-docs.md)
 
