@@ -2,6 +2,17 @@
 
 Status: pre-release (`0.x`), focused on learning and documentation.
 
+## v0.0.2 - 2026-02-17
+
+### Added or Changed
+- Moved the project screenshot in `README.md` to the top section under repository badges for faster visual context.
+- Restored the `## About The Project` heading in `README.md` so the table-of-contents anchor and section navigation remain valid.
+- Updated `README.md` version marker from `v0.0.1` to `v0.0.2`.
+- Added `docs/version-0.0.2-docs.md` and linked it in the README version documentation index.
+
+### For Deletion
+- None from this task context (no LaTeX build artifacts or temporary files were detected).
+
 ## v0.0.1 - 2026-02-17
 
 ### Added or Changed

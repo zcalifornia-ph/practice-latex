@@ -7,15 +7,17 @@
 [![Apache-2.0][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+[![PRACTICE-LATEX Screen Shot][product-screenshot]](https://github.com/zcalifornia-ph/practice-latex)
+
 <div align="center">
 <h3 align="center">PRACTICE-LATEX</h3>
 
   <p align="center">
     <strong>A practice repository to learn LaTeX Markup Language, Packages, and Typesetting System.</strong>
     <br />
-    Version: v0.0.1
+    Version: v0.0.2
     <br />
-    Status: initial learning baseline (documentation-complete).
+    Status: initial learning baseline (documentation-refined).
     <br />
     <a href="https://github.com/zcalifornia-ph/practice-latex"><strong>Explore the repository »</strong></a>
     <br />
@@ -55,8 +57,6 @@
 </details>
 
 ## About The Project
-
-[![PRACTICE-LATEX Screen Shot][product-screenshot]](https://github.com/zcalifornia-ph/practice-latex)
 
 `practice-latex` is a learning repository focused on practical LaTeX usage:
 
@@ -149,9 +149,10 @@ See the [open issues](https://github.com/zcalifornia-ph/practice-latex/issues) f
 
 ## Version Documentation
 
+- `v0.0.2`: [`docs/version-0.0.2-docs.md`](docs/version-0.0.2-docs.md)
 - `v0.0.1`: [`docs/version-0.0.1-docs.md`](docs/version-0.0.1-docs.md)
 
-This release note captures full initialization details, rationale, and follow-up actions beyond the summary in `CHANGELOG.md`.
+These release notes capture change rationale, scope, and follow-up actions beyond the summary in `CHANGELOG.md`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
